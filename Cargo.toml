@@ -1,6 +1,22 @@
-[package]
+[workspace]
 name = "bye_rosette_rs"
-version = "0.1.0"
-edition = "2021"
+version = "0.0.1"
+edition = "2024"
+description = "(WIP)robot framework inspired by ROS2, pure rust.(施工中)类似ROS2的机器人框架, 纯Rust。"
+authors = ["qsbye <2557877116@qq.com"]
 
-[dependencies]
+[workspace.dependencies]
+# 错误处理
+anyhow = "1.0.97"
+# 时间格式化
+chrono = "0.4.40"
+# Model Context Protocol协议定义
+rust-mcp-schema = { version = "0.2.2", path = "./static/rust-mcp-schema" }
+# Model Context Protocol开发工具
+rust-mcp-sdk = { version = "0.1.2", path = "./static/rust-mcp-sdk/crates/rust-mcp-sdk" }
+# 多线程框架
+tokio = { version = "1.44.1", features = ["full"] }
+# ros2接口
+ros2-interfaces-humble = "0.0.1"
+# 日志后端
+log = { version = "0.4.27", features = ["std"] }
