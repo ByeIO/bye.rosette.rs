@@ -1,0 +1,13 @@
+/target/
+**/*.rs.bk
+Cargo.lock
+src/.vscode/launch.json
+*.code-workspace
+*.bin
+/log/
+.vscode/*
+.idea/
+logging-config.yaml
+dev
+/2/
+/VM-security-items/

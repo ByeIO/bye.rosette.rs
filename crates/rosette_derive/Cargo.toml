@@ -1,0 +1,14 @@
+[package]
+edition = "2024"
+name = "rosette_derive"
+version.workspace = true
+authors.workspace = true
+description = "用于rosette宏编程的库"
+
+[dependencies]
+# 简化重复代码
+paste = "1.0.15"
+# 宏导出/宏共享
+macro_magic = "0.6.0"
+# 宏编程基础包
+proc-macro2 = "1.0.94"

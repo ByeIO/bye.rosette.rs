@@ -1,0 +1,43 @@
+rosbag2_bagfile_information:
+  version: 5
+  storage_identifier: sqlite3
+  relative_file_paths:
+  - rosbag_read_write.bag.db3
+  starting_time:
+    nanoseconds_since_epoch: 0
+  duration:
+    nanoseconds: 49000000000
+  message_count: 50
+  compression_format: ''
+  compression_mode: ''
+  topics_with_message_count:
+  - message_count: 50
+    topic_metadata:
+      name: example_topic
+      type: std_msgs/msg/Int32
+      serialization_format: cdr
+      offered_qos_profiles: |
+        - history: 3
+          depth: 0
+          reliability: 1
+          durability: 1
+          deadline:
+            sec: 2147483647
+            nsec: 4294967295
+          lifespan:
+            sec: 2147483647
+            nsec: 4294967295
+          liveliness: 1
+          liveliness_lease_duration:
+            sec: 2147483647
+            nsec: 4294967295
+          avoid_ros_namespace_conventions: false
+  files:
+  - path: ./result/rosbag_read_write.bag/rosbag_read_write.bag.db3
+    starting_time:
+      nanoseconds_since_epoch: 0
+    duration:
+      nanoseconds: 49000000000
+    message_count: 50
+  custom_data: {}
+  ros_distro: rosbags

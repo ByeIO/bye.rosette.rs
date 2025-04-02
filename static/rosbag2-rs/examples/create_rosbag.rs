@@ -1,3 +1,7 @@
+#![allow(unused)]
+
+//! 创建rosbag
+
 use anyhow::Result;
 use rosbag2_rs::Writer;
 use std::path::Path;

@@ -1,3 +1,5 @@
 # 忽略大文件
 target/*
 rosette_core/target/*
+assets/Retail_Street.bag
+assets/mujoco*

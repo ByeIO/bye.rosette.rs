@@ -1,0 +1,19 @@
+[package]
+name = "rosette_core"
+version.workspace = true
+edition = "2024"
+description = "rosette核心"
+authors.workspace = true
+
+[dependencies]
+# 错误处理
+anyhow.workspace = true
+# ros2包解析
+rosbag2-rs.workspace = true
+# 临时文件
+tempfile.workspace = true
+# mqtt协议栈
+rumqttc.workspace = true
+rumqttd.workspace = true
+# dds分布式通信
+rustdds.workspace = true

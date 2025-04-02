@@ -1,0 +1,10 @@
+[package]
+name = "rosette_cli"
+version.workspace = true
+edition = "2024"
+description = "rosette命令行工具"
+authors = ["qsbye <2557877116@qq.com"]
+
+[dependencies]
+# 命令行解析
+clap = { version = "4.5.34", features = ["derive"] }

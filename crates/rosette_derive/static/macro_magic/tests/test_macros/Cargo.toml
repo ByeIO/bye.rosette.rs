@@ -1,0 +1,15 @@
+[package]
+name = "test_macros"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[lib]
+proc-macro = true
+
+[dependencies]
+macro_magic = { path = "../../", features = ["proc_support"] }
+syn = { version = "2", features = ["full"] }
+quote = "1"
+proc-macro2 = "1"
+derive-syn-parse = "0.2"

@@ -1,9 +1,17 @@
 [workspace]
-name = "bye_rosette_rs"
 version = "0.0.1"
-edition = "2024"
 description = "(WIP)robot framework inspired by ROS2, pure rust.(施工中)类似ROS2的机器人框架, 纯Rust。"
 authors = ["qsbye <2557877116@qq.com"]
+members = [ "crates/rosette_cli","crates/rosette_core", "crates/rosette_derive", "crates/rosette_playground"]
+resolver = "3"
+
+[workspace.package]
+name = "bye_rosette_rs"
+version = "0.0.1"
+authors = ["qsbye <2557877116@qq.com"]
+repository = "https://github.com/ByeIO/bye.rosette.rs"
+edition = "2024"
+license = "Apache-2.0"
 
 [workspace.dependencies]
 # 错误处理
@@ -16,7 +24,18 @@ rust-mcp-schema = { version = "0.2.2", path = "./static/rust-mcp-schema" }
 rust-mcp-sdk = { version = "0.1.2", path = "./static/rust-mcp-sdk/crates/rust-mcp-sdk" }
 # 多线程框架
 tokio = { version = "1.44.1", features = ["full"] }
-# ros2接口
-ros2-interfaces-humble = "0.0.1"
+# ros2接口(针对humble)
+ros2-interfaces-humble = { version = "0.0.1", path = "./static/ros2-interfaces-humble" }
 # 日志后端
 log = { version = "0.4.27", features = ["std"] }
+# ros2数据包bag处理
+rosbag2-rs = { version = "0.2.1", path = "./static/rosbag2-rs" }
+# 临时文件
+tempfile = { version = "3.19.1" }
+# ros2消息收发
+ros2-client = { version = "0.8.1", features = ["pre-iron-gid"] }
+# DDS分布式通信
+rustdds = { version = "0.11.4", path = "./static/RustDDS" }
+# MQTT协议栈(纯Rust)
+rumqttc = { version = "0.24.0", path = "./static/rumqttc" }
+rumqttd = { version = "0.19.0", path = "./static/rumqttd" }
