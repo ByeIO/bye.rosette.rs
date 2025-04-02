@@ -17,3 +17,9 @@ rumqttc.workspace = true
 rumqttd.workspace = true
 # dds分布式通信
 rustdds.workspace = true
+# 静态变量
+static_cell.workspace = true
+# 全局变量
+once_cell.workspace = true
+# 通用数据表达序列化/反序列化
+cdr.workspace = true

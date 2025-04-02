@@ -1,0 +1,115 @@
+header: 
+  seq: 87711
+  stamp: 
+    secs: 946685465
+    nsecs: 320295095
+  frame_id: "livox_frame"
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 0.0
+orientation_covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+angular_velocity: 
+  x: -0.0005132209043949842
+  y: 0.07195389270782471
+  z: 0.7300290465354919
+angular_velocity_covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+linear_acceleration: 
+  x: 0.19260954856872559
+  y: 0.2528225779533386
+  z: 0.9278252720832825
+linear_acceleration_covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+---
+header: 
+  seq: 87712
+  stamp: 
+    secs: 946685465
+    nsecs: 325291991
+  frame_id: "livox_frame"
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 0.0
+orientation_covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+angular_velocity: 
+  x: -0.020753245800733566
+  y: 0.09325917065143585
+  z: 0.7225722074508667
+angular_velocity_covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+linear_acceleration: 
+  x: 0.18079924583435059
+  y: 0.2697598338127136
+  z: 0.9327691197395325
+linear_acceleration_covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+---
+header: 
+  seq: 87713
+  stamp: 
+    secs: 946685465
+    nsecs: 330295086
+  frame_id: "livox_frame"
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 0.0
+orientation_covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+angular_velocity: 
+  x: -0.023949040099978447
+  y: 0.11243394017219543
+  z: 0.7215069532394409
+angular_velocity_covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+linear_acceleration: 
+  x: 0.17988371849060059
+  y: 0.2716824412345886
+  z: 0.9448540806770325
+linear_acceleration_covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+---
+header: 
+  seq: 87714
+  stamp: 
+    secs: 946685465
+    nsecs: 335296035
+  frame_id: "livox_frame"
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 0.0
+orientation_covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+angular_velocity: 
+  x: -0.03992800787091255
+  y: 0.12415184080600739
+  z: 0.7183111310005188
+angular_velocity_covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+linear_acceleration: 
+  x: 0.17274260520935059
+  y: 0.24082918465137482
+  z: 0.9412835240364075
+linear_acceleration_covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+---
+header: 
+  seq: 87715
+  stamp: 
+    secs: 946685465
+    nsecs: 340301991
+  frame_id: "livox_frame"
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 0.0
+orientation_covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+angular_velocity: 
+  x: -0.04312380030751228
+  y: 0.1284129023551941
+  z: 0.708723783493042
+angular_velocity_covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+linear_acceleration: 
+  x: 0.17796111106872559
+  y: 0.24989290535449982
+  z: 0.9471428990364075
+linear_acceleration_covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+---
