@@ -30,6 +30,8 @@ ros2-interfaces-humble = { version = "0.0.1", path = "./static/ros2-interfaces-h
 log = { version = "0.4.27", features = ["std"] }
 # ros2数据包bag处理
 rosbag2-rs = { version = "0.2.1", path = "./static/rosbag2-rs" }
+# ros1数据包bag处理
+rosbag = { version = "0.6.3", path = "./static/rosbag-rs" }
 # 临时文件
 tempfile = { version = "3.19.1" }
 # ros2消息收发
@@ -45,3 +47,5 @@ static_cell = "2.1.0"
 once_cell = "1.21.3"
 # 通用数据表达序列化/反序列化
 cdr = { version = "0.2.4", path = "./static/cdr-rs" }
+# 大小端字节序
+byteorder = "1.5.0"

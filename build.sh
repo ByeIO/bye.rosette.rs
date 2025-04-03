@@ -14,7 +14,7 @@ git pull home.ssh air
 # 添加包
 cargo add rosbag2-rs --package rosette_core
 # 测试
-cargo run --example rosbag_read_write > result/rosbag_read_write.log
+cargo run --example rosbag2_read_write > result/rosbag_read_write.log
 # 导出workspace中的crate
 cargo package
 # 测试rosbag -> Retail_Street.bag
@@ -32,4 +32,4 @@ rostopic echo -n 5 /livox/imu > /tmp/livox_imu.log
 cd /data/fast_livo2 && source devel/setup.bash
 rostopic echo -n 5 /livox/lidar > /tmp/livox_lidar.log
 # 测试
-cargo run --example rosbag_read_fast_livo2 > result/rosbag_read_fast_livo2.log
+cargo run --example rosbag1_read_fast_livo2 > result/rosbag_read_fast_livo2.log
