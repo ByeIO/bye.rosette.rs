@@ -14,10 +14,13 @@ async fn main() {
     let args = std::env::args().collect::<Vec<String>>();
     // 检查是否有命令行参数
     if args.len() < 2 {
-        eprintln!("请提供命令行参数");
+        eprintln!("请提供命令行参数, 或-h, -v");
         return;
     }
     // 解析命令行参数
     let cmd = args[1..].join(" ");
-    RosetteCli::parse(cmd).await;
+    println!("cmd: {}", cmd);
+    
+    // parse函数为宏自动生成
+    RosetteCli::parse();
 }

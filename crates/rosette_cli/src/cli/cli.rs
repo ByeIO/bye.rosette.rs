@@ -35,7 +35,7 @@ pub struct RosetteCli {
 }
 
 impl RosetteCli{
-    pub async fn parse(cmd: String){
+    pub async fn _parse(cmd: String){
         command_parser(cmd).await;
     }
 }

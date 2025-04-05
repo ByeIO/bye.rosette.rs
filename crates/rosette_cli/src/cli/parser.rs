@@ -57,9 +57,14 @@ macro_rules! generate_commands {
 
 // 输出为命令
 pub async fn command_parser(input: String) -> anyhow::Result<()> {
-    let str_split = split_input_string(input).unwrap();
+    let str_split = split_input_string(input)?;
+    
+    // println!("str_split: {:?}", str_split);
+    
     let cli = RosetteCli::parse_from(str_split);
 
+    // println!("cli.command: {:?}", cli.command);
+    
     match cli.command {
         // 1. 动作子命令
         RosetteCommand::Action { command } => {
