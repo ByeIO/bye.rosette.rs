@@ -38,3 +38,8 @@ log4rs.workspace = true
 log.workspace = true
 # 异步框架
 tokio.workspace = true
+# 彩色打印
+color-backtrace.workspace = true
+# 异步日志前端
+tracing.workspace = true
+tracing-subscriber.workspace = true

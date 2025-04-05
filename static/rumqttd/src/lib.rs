@@ -142,7 +142,7 @@ pub struct BridgeConfig {
     pub transport: Transport,
 }
 
-#[derive(Serialize, Deserialize, Clone)]
+#[derive(Serialize, Deserialize, Clone, Default)]
 pub struct ConnectionSettings {
     pub connection_timeout_ms: u16,
     pub max_payload_size: usize,

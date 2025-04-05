@@ -1,0 +1,22 @@
+#![allow(unused)]
+
+//! 接口命令
+
+// 命令行解析
+use clap::{Parser, Subcommand, Args};
+
+// 错误处理
+use anyhow;
+
+/// 接口子命令定义
+#[derive(Subcommand, Debug)]
+pub enum InterfaceCommand{
+    
+}
+
+/// 守护进程子命令解析器
+pub async fn interface_cmd(cmd: InterfaceCommand)->anyhow::Result<(), anyhow::Error>{
+    
+    // 返回
+    anyhow::Ok(())
+}

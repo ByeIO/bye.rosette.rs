@@ -1,0 +1,3 @@
+[2m2025-04-05T15:41:09.547833Z[0m [32m INFO[0m [1mspawn[0m[2m:[0m [2mrumqttd::router::routing[0m[2m:[0m close [3mtime.busy[0m[2m=[0m104µs [3mtime.idle[0m[2m=[0m9.58µs
+[2m2025-04-05T15:41:09.548318Z[0m [31mERROR[0m [1mrun[0m[2m:[0m[1m[>] incoming[0m[1m{[0m[3mconnection_id[0m[2m=[0m0[1m}[0m[2m:[0m [2mrumqttd::router::routing[0m[2m:[0m close [3mtime.busy[0m[2m=[0m28.4µs [3mtime.idle[0m[2m=[0m6.29µs
+[2m2025-04-05T15:41:10.552643Z[0m [32m INFO[0m [2mmqtt_pub_sub[0m[2m:[0m Error = Io(Os { code: 61, kind: ConnectionRefused, message: "Connection refused" })

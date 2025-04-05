@@ -27,9 +27,10 @@ rust实现.
 ```
 
 ### 组件(crates文件夹)
-1. rosette core : 核心组件, 处理消息通信
-2. webviz : 网页中进行rosette消息查看(类似rviz)[@ref]()
-3. mujoco : 网页中进行机器人仿真(类似gazebo)
+1. rosette_cli : rosette的总入口, 引用rosette_cli作为库即可使用rosette的全部能力.
+2. rosette_core: 核心组件, 处理消息通信
+2. rosette_derive : 宏编程, 内部库
+3. rosette_playground : 可视化调试工具和仿真工具(webviz, mujoco)
 
 ## 参考资料
 1. TinyROS[@ref](https://github.com/neuralsandwich/TinyROS)

@@ -43,3 +43,6 @@ git config --get branch.air.merge
 git pull
 # 测试
 cargo run --example rosdds_pub_sub > result/rosdds_pub_sub.log
+cargo run --example mqtt_pub_sub > result/mqtt_pub_sub
+cargo build --bin rosette
+cargo run --bin rosette -- action hello

@@ -7,4 +7,12 @@ authors = ["qsbye <2557877116@qq.com"]
 
 [dependencies]
 # 命令行解析
-clap = { version = "4.5.34", features = ["derive"] }
+clap.workspace = true
+# 错误处理
+anyhow.workspace = true
+# 复杂命令解析
+shell-words.workspace = true
+# 宏编程, 减少重复代码
+paste.workspace = true
+# 多线程框架
+tokio.workspace = true
