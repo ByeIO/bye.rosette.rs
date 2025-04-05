@@ -33,3 +33,13 @@ cd /data/fast_livo2 && source devel/setup.bash
 rostopic echo -n 5 /livox/lidar > /tmp/livox_lidar.log
 # 测试
 cargo run --example rosbag1_read_fast_livo2 > result/rosbag_read_fast_livo2.log
+# 跟踪远程分支
+git branch -u home.ssh/air air
+git branch -vv
+git config branch.air.remote home.ssh
+git config branch.air.merge refs/heads/air
+git config --get branch.air.remote
+git config --get branch.air.merge
+git pull
+# 测试
+cargo run --example rosdds_pub_sub > result/rosdds_pub_sub.log

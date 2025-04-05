@@ -1,0 +1,234 @@
+2025-04-05T20:20:43.815464+08:00 ERROR rustdds::network::udp_listener - UDPListener::new_multicast() not implemented for IpV6
+2025-04-05T20:20:43.815575+08:00 ERROR rustdds::network::udp_listener - UDPListener::new_multicast() not implemented for IpV6
+2025-04-05T20:20:43.815826+08:00 WARN rustdds::network::udp_listener - join_multicast_v4 failed: Os { code: 48, kind: AddrInUse, message: "Address already in use" }. multicast_group [239.255.0.1] interface [10.168.233.1]
+2025-04-05T20:20:43.815877+08:00 WARN rustdds::network::udp_listener - join_multicast_v4 failed: Os { code: 48, kind: AddrInUse, message: "Address already in use" }. multicast_group [239.255.0.1] interface [10.168.233.1]
+2025-04-05T20:20:43.815902+08:00 WARN rustdds::network::udp_listener - join_multicast_v4 failed: Os { code: 48, kind: AddrInUse, message: "Address already in use" }. multicast_group [239.255.0.1] interface [10.168.233.1]
+2025-04-05T20:20:43.816461+08:00 ERROR rustdds::network::udp_listener - UDPListener::new_multicast() not implemented for IpV6
+2025-04-05T20:20:43.816482+08:00 ERROR rustdds::network::udp_listener - UDPListener::new_multicast() not implemented for IpV6
+2025-04-05T20:20:43.816503+08:00 WARN rustdds::network::udp_listener - join_multicast_v4 failed: Os { code: 48, kind: AddrInUse, message: "Address already in use" }. multicast_group [239.255.0.1] interface [10.168.233.1]
+2025-04-05T20:20:43.816522+08:00 WARN rustdds::network::udp_listener - join_multicast_v4 failed: Os { code: 48, kind: AddrInUse, message: "Address already in use" }. multicast_group [239.255.0.1] interface [10.168.233.1]
+2025-04-05T20:20:43.816540+08:00 WARN rustdds::network::udp_listener - join_multicast_v4 failed: Os { code: 48, kind: AddrInUse, message: "Address already in use" }. multicast_group [239.255.0.1] interface [10.168.233.1]
+2025-04-05T20:20:43.818310+08:00 ERROR rustdds::network::udp_sender - UDPSender::new() not implemented for IpV6
+2025-04-05T20:20:43.818362+08:00 ERROR rustdds::network::udp_sender - UDPSender::new() not implemented for IpV6
+2025-04-05T20:20:43.822612+08:00 INFO ros2_client::context - Creating topic, DDS name: rt/chatter
+2025-04-05T20:20:43.822650+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:43.822670+08:00 INFO ros2_client::context - Created topic
+2025-04-05T20:20:43.822696+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:43.822946+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:43.822982+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:43.823513+08:00 INFO tracing::span - rosout_raw;
+2025-04-05T20:20:43.823554+08:00 ERROR tracing::span - rosout_raw;
+2025-04-05T20:20:43.823576+08:00 INFO ros2_client::rosout - [rosout] (combined_node) 节点初始化完成，开始监听消息
+2025-04-05T20:20:43.823707+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:43.823741+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:43.823949+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:43.823991+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:43.824195+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:43.824222+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:43.824404+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:43.824433+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:43.825387+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:43.825417+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:43.825572+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:43.825594+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:43.825739+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:43.825762+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:43.826011+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:43.826038+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:43.826491+08:00 ERROR rustdds::rtps::rtps_reader_proxy - all_acked_before updated backwards! old=SequenceNumber(5) new=SequenceNumber(4)
+2025-04-05T20:20:44.824722+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=68
+2025-04-05T20:20:44.824789+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=68
+2025-04-05T20:20:44.824989+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:44.825020+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:45.030480+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=264
+2025-04-05T20:20:45.030561+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=264
+2025-04-05T20:20:45.827352+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:45.827652+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:47.828769+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:47.828879+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:49.829979+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:49.830134+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:51.832117+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:20:51.832334+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.864541+08:00 ERROR rustdds::network::udp_listener - UDPListener::new_multicast() not implemented for IpV6
+2025-04-05T20:25:10.864607+08:00 ERROR rustdds::network::udp_listener - UDPListener::new_multicast() not implemented for IpV6
+2025-04-05T20:25:10.864743+08:00 WARN rustdds::network::udp_listener - join_multicast_v4 failed: Os { code: 48, kind: AddrInUse, message: "Address already in use" }. multicast_group [239.255.0.1] interface [10.168.233.1]
+2025-04-05T20:25:10.864773+08:00 WARN rustdds::network::udp_listener - join_multicast_v4 failed: Os { code: 48, kind: AddrInUse, message: "Address already in use" }. multicast_group [239.255.0.1] interface [10.168.233.1]
+2025-04-05T20:25:10.864799+08:00 WARN rustdds::network::udp_listener - join_multicast_v4 failed: Os { code: 48, kind: AddrInUse, message: "Address already in use" }. multicast_group [239.255.0.1] interface [10.168.233.1]
+2025-04-05T20:25:10.865459+08:00 ERROR rustdds::network::udp_listener - UDPListener::new_multicast() not implemented for IpV6
+2025-04-05T20:25:10.865484+08:00 ERROR rustdds::network::udp_listener - UDPListener::new_multicast() not implemented for IpV6
+2025-04-05T20:25:10.865510+08:00 WARN rustdds::network::udp_listener - join_multicast_v4 failed: Os { code: 48, kind: AddrInUse, message: "Address already in use" }. multicast_group [239.255.0.1] interface [10.168.233.1]
+2025-04-05T20:25:10.865535+08:00 WARN rustdds::network::udp_listener - join_multicast_v4 failed: Os { code: 48, kind: AddrInUse, message: "Address already in use" }. multicast_group [239.255.0.1] interface [10.168.233.1]
+2025-04-05T20:25:10.865558+08:00 WARN rustdds::network::udp_listener - join_multicast_v4 failed: Os { code: 48, kind: AddrInUse, message: "Address already in use" }. multicast_group [239.255.0.1] interface [10.168.233.1]
+2025-04-05T20:25:10.867758+08:00 ERROR rustdds::network::udp_sender - UDPSender::new() not implemented for IpV6
+2025-04-05T20:25:10.867841+08:00 ERROR rustdds::network::udp_sender - UDPSender::new() not implemented for IpV6
+2025-04-05T20:25:10.872945+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.872969+08:00 INFO ros2_client::context - Creating topic, DDS name: rt/chatter
+2025-04-05T20:25:10.873002+08:00 INFO ros2_client::context - Created topic
+2025-04-05T20:25:10.873028+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.873836+08:00 INFO tracing::span - rosout_raw;
+2025-04-05T20:25:10.873868+08:00 ERROR tracing::span - rosout_raw;
+2025-04-05T20:25:10.873889+08:00 INFO ros2_client::rosout - [rosout] (combined_node) 节点初始化完成，开始监听消息
+2025-04-05T20:25:10.874326+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.874369+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.874609+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.874644+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.874878+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.874923+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.875139+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.875172+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.875426+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.875460+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.875692+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.875725+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.875954+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.875989+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.876222+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.876255+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.877247+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.877284+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.878004+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:10.878051+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:11.875724+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:11.875955+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:12.878595+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:12.878819+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:14.880484+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:14.880688+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:16.880654+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:16.880747+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:18.882406+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:18.882482+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:20.883899+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:20.883956+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:22.887934+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:22.888097+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:24.888394+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:24.888471+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:26.892086+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:25:26.892318+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.527219+08:00 ERROR rustdds::network::udp_listener - UDPListener::new_multicast() not implemented for IpV6
+2025-04-05T20:49:35.527490+08:00 ERROR rustdds::network::udp_listener - UDPListener::new_multicast() not implemented for IpV6
+2025-04-05T20:49:35.527614+08:00 WARN rustdds::network::udp_listener - join_multicast_v4 failed: Os { code: 48, kind: AddrInUse, message: "Address already in use" }. multicast_group [239.255.0.1] interface [10.168.233.1]
+2025-04-05T20:49:35.527641+08:00 WARN rustdds::network::udp_listener - join_multicast_v4 failed: Os { code: 48, kind: AddrInUse, message: "Address already in use" }. multicast_group [239.255.0.1] interface [10.168.233.1]
+2025-04-05T20:49:35.527663+08:00 WARN rustdds::network::udp_listener - join_multicast_v4 failed: Os { code: 48, kind: AddrInUse, message: "Address already in use" }. multicast_group [239.255.0.1] interface [10.168.233.1]
+2025-04-05T20:49:35.528177+08:00 ERROR rustdds::network::udp_listener - UDPListener::new_multicast() not implemented for IpV6
+2025-04-05T20:49:35.528197+08:00 ERROR rustdds::network::udp_listener - UDPListener::new_multicast() not implemented for IpV6
+2025-04-05T20:49:35.528217+08:00 WARN rustdds::network::udp_listener - join_multicast_v4 failed: Os { code: 48, kind: AddrInUse, message: "Address already in use" }. multicast_group [239.255.0.1] interface [10.168.233.1]
+2025-04-05T20:49:35.528236+08:00 WARN rustdds::network::udp_listener - join_multicast_v4 failed: Os { code: 48, kind: AddrInUse, message: "Address already in use" }. multicast_group [239.255.0.1] interface [10.168.233.1]
+2025-04-05T20:49:35.528253+08:00 WARN rustdds::network::udp_listener - join_multicast_v4 failed: Os { code: 48, kind: AddrInUse, message: "Address already in use" }. multicast_group [239.255.0.1] interface [10.168.233.1]
+2025-04-05T20:49:35.530229+08:00 ERROR rustdds::network::udp_sender - UDPSender::new() not implemented for IpV6
+2025-04-05T20:49:35.530284+08:00 ERROR rustdds::network::udp_sender - UDPSender::new() not implemented for IpV6
+2025-04-05T20:49:35.534706+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.534763+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.535459+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.535497+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.535721+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.535755+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.535791+08:00 INFO ros2_client::context - Creating topic, DDS name: rt/chatter
+2025-04-05T20:49:35.535816+08:00 INFO ros2_client::context - Created topic
+2025-04-05T20:49:35.536127+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.536161+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.536582+08:00 INFO tracing::span - rosout_raw;
+2025-04-05T20:49:35.536609+08:00 ERROR tracing::span - rosout_raw;
+2025-04-05T20:49:35.536637+08:00 INFO ros2_client::rosout - [rosout] (sub) 节点初始化完成，开始监听消息
+2025-04-05T20:49:35.537265+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.537297+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.537536+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.537567+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.537798+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.537828+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.538056+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.538086+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.538292+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.538321+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.538535+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.538568+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.539931+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.539961+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.540168+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.540197+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.540402+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.540433+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.540630+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:35.540670+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:36.536768+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:36.536829+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7410 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:36.539298+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=68
+2025-04-05T20:49:36.539349+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=68
+2025-04-05T20:49:36.744886+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=264
+2025-04-05T20:49:36.744961+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=264
+2025-04-05T20:49:37.538213+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:37.538258+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:39.540782+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:39.540830+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:41.541721+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:41.541803+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:43.543646+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:43.543770+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:45.545497+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:45.545577+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:47.548639+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:47.548758+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:49.551496+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:49.551644+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:51.553550+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:51.553710+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:53.555235+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:53.555318+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:55.555691+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:55.555769+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:57.557369+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:57.557429+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:59.560006+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:49:59.560070+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:01.562849+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:01.563004+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:03.564438+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:03.564521+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:05.568146+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:05.568287+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:07.568588+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:07.568684+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:09.571422+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:09.571495+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:11.575655+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:11.575841+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:13.577174+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:13.577248+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:15.579349+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:15.579464+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:17.582836+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:17.583013+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:19.584382+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:19.584462+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:21.586959+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:21.587002+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:23.587380+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:23.587433+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:25.589824+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:25.589873+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:27.591301+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:27.591339+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:29.595118+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:29.595352+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:31.598379+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:31.598572+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:33.600713+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:33.600940+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:35.602604+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:35.602747+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:37.603827+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:37.603867+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:39.605186+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:39.605225+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:41.607695+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:41.607757+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:43.610244+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:43.610292+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:45.612987+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:45.613042+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:47.614868+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:47.614963+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:49.617043+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8:c29:4c70:29ec:92d1]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64
+2025-04-05T20:50:49.617188+08:00 WARN rustdds::network::udp_sender - send_to_udp_socket - send_to [fd2c:204f:7c8c:8::75c]:7411 : Os { code: 22, kind: InvalidInput, message: "Invalid argument" } len=64

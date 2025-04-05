@@ -27,3 +27,14 @@ once_cell.workspace = true
 cdr.workspace = true
 # 大小端字节序
 byteorder.workspace = true
+# ros2通信
+ros2-client = { workspace = true, features = ["pre-iron-gid"] }
+ros2-interfaces-humble.workspace = true
+# 异步流处理
+futures.workspace = true
+# 日志前端
+log4rs.workspace = true
+# 日志后端
+log.workspace = true
+# 异步框架
+tokio.workspace = true
