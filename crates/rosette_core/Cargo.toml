@@ -43,3 +43,16 @@ color-backtrace.workspace = true
 # 异步日志前端
 tracing.workspace = true
 tracing-subscriber.workspace = true
+# gRPC通信
+tonic.workspace = true
+# protobuf解析
+prost.workspace = true
+
+# build专用依赖
+[build-dependencies]
+tonic-build.workspace = true
+
+# 示例
+[[example]]
+name = "protobuf_msg"
+path = "./examples/protobuf_msg/protobuf_msg.rs"

@@ -66,3 +66,13 @@ clap = { version = "4.5.34", features = ["derive"] }
 shell-words = "1.1.0"
 # 宏编程, 减少重复代码
 paste = "1.0.15"
+# protobuf解析
+protobuf = { version = "3.7.2", features = ["bytes", "with-bytes"] }
+# protobuf解析
+prost = { version = "0.13.5", features = ["prost-derive"] }
+# gRPC通信
+tonic = { version = "0.13.0", features = ["prost"] }
+# 编译依赖
+tonic-build = "0.8.0"
+
+[workspace.build-dependencies]

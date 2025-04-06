@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: rosette-py
+Version: 0.1.0
+Summary: Add your description here
+Author: qsbye
+Author-email: <2557877116@qq.com>
+Keywords: python,ROS,rosette
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# rosette_py包
+rosette机器人框架(rust)的python绑定(binding).
+
+## 使用说明
+
+
+## 开发说明
+### 文件介绍
+```sh
+- __init__.py : 模块入口(类似mod.rs)
+- setup.py : 包配置文件(类似Cargo.toml)
+- pyproject.toml : 包依赖文件
+```
+
+### 编译
+```sh
+python setup.py sdist bdist_wheel
+```

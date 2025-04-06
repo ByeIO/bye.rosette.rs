@@ -50,6 +50,8 @@ rust实现.
 * [ ] mqtt通信
 * [x] rosbag1数据包读写
 * [x] rogbag2数据包读写
+* [ ] ros1_bridge与ros1通信
+* [ ] ros2_bridge与ros2通信
 
 #### rosette_playground
 * [ ] webviz浏览器可视化话题内容

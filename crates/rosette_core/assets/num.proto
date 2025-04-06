@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+// 数字消息
+message Number {
+  int64 num = 1;
+}

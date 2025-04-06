@@ -63,3 +63,10 @@ cargo run --bin rosette service help
 cargo run --bin rosette topic help
 cargo run --bin rosette playground help
 # 测试消息通信
+cargo run --example std_msg
+# 构建python绑定包
+python setup.py sdist bdist_wheel
+# 查看文档
+cargo doc --open
+# 测试消息protobuf通信
+cargo run --example protobuf_msg > result/protobuf_msg.log
