@@ -46,4 +46,20 @@ cargo run --example rosdds_pub_sub > result/rosdds_pub_sub.log
 cargo run --example mqtt_pub_sub > result/mqtt_pub_sub
 cargo build --bin rosette
 cargo run --bin rosette -- action hello
-cargo run --bin rosette bag -h
+cargo run --bin rosette bag help
+cargo run --bin rosette component help
+cargo run --bin rosette daemon help
+cargo run --bin rosette doctor help
+cargo run --bin rosette interface help
+cargo run --bin rosette launch help
+cargo run --bin rosette lifecycle help
+cargo run --bin rosette multicast help
+cargo run --bin rosette node help
+cargo run --bin rosette param help
+cargo run --bin rosette pkg help
+cargo run --bin rosette run help
+cargo run --bin rosette security help
+cargo run --bin rosette service help
+cargo run --bin rosette topic help
+cargo run --bin rosette playground help
+# 测试消息通信

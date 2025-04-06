@@ -25,7 +25,9 @@ rust-mcp-sdk = { version = "0.1.2", path = "./static/rust-mcp-sdk/crates/rust-mc
 # 多线程框架
 tokio = { version = "1.44.1", features = ["full"] }
 # ros2接口(针对humble)
-ros2-interfaces-humble = { version = "0.0.1", path = "./static/ros2-interfaces-humble" }
+ros2-interfaces-humble = { version = "0.0.1", features = ["all"], path = "./static/ros2-interfaces-humble" }
+# ros2接口(针对jazzy)
+ros2-interfaces-jazzy = { version = "0.0.4", features = ["all"], path = "./static/ros2-interfaces-jazzy" }
 # 日志后端
 log = { version = "0.4.27", features = ["std"] }
 # 日志前端

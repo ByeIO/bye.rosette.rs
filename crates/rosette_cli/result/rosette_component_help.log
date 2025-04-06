@@ -1,0 +1,16 @@
+cmd: component help
+3. 组件子命令
+
+Usage: rosette component <COMMAND>
+
+Commands:
+  list        列出正在运行的容器和组件
+  load        将组件加载到容器节点中
+  standalone  在独立的容器节点中运行组件
+  types       列出在 ament 索引中注册的组件
+  unload      从容器节点中卸载组件
+  help        Print this message or the help of the given subcommand(s)
+
+Options:
+  -h, --help     Print help
+  -V, --version  Print version

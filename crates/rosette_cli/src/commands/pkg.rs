@@ -11,7 +11,7 @@ use anyhow;
 /// 包管理子命令定义
 #[derive(Subcommand, Debug)]
 pub enum PkgCommand {
-    /// 创建一个新的 ROS 2 包
+    /// 创建一个新的 Rosette 包
     Create {
         /// 包名
         #[clap(value_name = "PACKAGE_NAME")]

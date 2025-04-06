@@ -15,6 +15,50 @@ rust实现.
 |分布式通信|✅|✅|
 |开发语言|Rust|C++|
 
+### 支持列表
+#### 一级支持(Tier1)
+* [x] Linux(ubuntu)
+
+#### 二级支持(Tier2)
+* [ ] macOS
+* [ ] windows
+* [ ] harmonyOS
+
+### 功能规划
+#### rosette_cli
+* [ ] action动作指令
+* [ ] bag数据包处理
+* [ ] component组件
+* [ ] daemon守护进程
+* [ ] doctor自检
+* [ ] interface接口
+* [ ] launch启动
+* [ ] lifecycle生命周期
+* [ ] multicast多播
+* [ ] node节点
+* [ ] param参数
+* [ ] pkg包管理
+* [ ] playground可视化调试命令
+* [ ] run运行
+* [ ] security安全性
+* [ ] service服务
+* [ ] topic话题
+
+#### rosette_core
+* [ ] msg, srv, action文件解析
+* [x] DDS分布式通信
+* [ ] mqtt通信
+* [x] rosbag1数据包读写
+* [x] rogbag2数据包读写
+
+#### rosette_playground
+* [ ] webviz浏览器可视化话题内容
+* [ ] webrqt浏览器可视化调试话题、服务
+* [ ] mujoco浏览器机器人仿真
+
+#### rosette_derive
+**暂无规划**
+
 ## 开发说明
 ### 目录说明
 ```sh

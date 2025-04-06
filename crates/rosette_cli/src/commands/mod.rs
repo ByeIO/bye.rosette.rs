@@ -81,3 +81,8 @@ pub use service::service_cmd;
 pub mod topic;
 pub use topic::TopicCommand;
 pub use topic::topic_cmd;
+
+// 17. 可视化调试相关子命令
+pub mod playground;
+pub use playground::PlaygroundCommand;
+pub use playground::playground_cmd;

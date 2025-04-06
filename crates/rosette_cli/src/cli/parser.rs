@@ -17,11 +17,7 @@ use paste::paste;
 // 内部库
 use super::cli::{ RosetteCli, RosetteCommand };
 use crate::commands::{
-    action_cmd, bag_cmd, component_cmd, 
-    daemon_cmd, doctor_cmd, interface_cmd,
-    launch_cmd, lifecycle_cmd, multicast_cmd,
-    node_cmd, param_cmd, pkg_cmd, run_cmd, 
-    security_cmd, service_cmd, topic_cmd,
+    action_cmd, bag_cmd, component_cmd, daemon_cmd, doctor_cmd, interface_cmd, launch_cmd, lifecycle_cmd, multicast_cmd, node_cmd, param_cmd, pkg_cmd, playground_cmd, run_cmd, security_cmd, service_cmd, topic_cmd
 };
 
 // 按照空格分割输入
@@ -190,6 +186,14 @@ pub async fn command_parser(input: String) -> anyhow::Result<()> {
         RosetteCommand::Topic { command } => {
             // 子程序继续处理
             topic_cmd(command).await?;
+            
+            // 返回
+            anyhow::Ok(())
+        },
+        // 17. 可视化调试子命令
+        RosetteCommand::Playground { command } => {
+            // 子程序继续处理
+            playground_cmd(command).await?;
             
             // 返回
             anyhow::Ok(())

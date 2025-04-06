@@ -16,3 +16,5 @@ shell-words.workspace = true
 paste.workspace = true
 # 多线程框架
 tokio.workspace = true
+# ros2接口(针对jazzy)
+ros2-interfaces-jazzy.workspace = true

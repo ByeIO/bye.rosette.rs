@@ -12,6 +12,7 @@ use crate::commands::{
     LaunchCommand, LifecycleCommand, MulticastCommand, 
     NodeCommand, ParamCommand, PkgCommand, RunCommand,
     SecurityCommand, ServiceCommand, TopicCommand, 
+    PlaygroundCommand,
 };
 use crate::commands::{
     action_cmd, bag_cmd, component_cmd, 
@@ -19,6 +20,7 @@ use crate::commands::{
     launch_cmd, lifecycle_cmd, multicast_cmd,
     node_cmd, param_cmd, pkg_cmd, run_cmd, 
     security_cmd, service_cmd, topic_cmd,
+    playground_cmd,
 };
 
 use super::parser::command_parser;
@@ -138,5 +140,11 @@ pub enum RosetteCommand {
         #[command(subcommand)]
         command: TopicCommand,
     },
+    
+    /// 17. 可视化调试子命令
+    Playground{
+        #[command(subcommand)]
+        command: PlaygroundCommand,
+    }
     
 }

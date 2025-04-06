@@ -3443,6 +3443,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "ros2-interfaces-jazzy"
+version = "0.0.4"
+dependencies = [
+ "ros2-client 0.7.6",
+ "serde",
+ "serde_with",
+]
+
+[[package]]
 name = "rosbag"
 version = "0.6.3"
 dependencies = [
@@ -3472,6 +3481,7 @@ dependencies = [
  "anyhow",
  "clap",
  "paste",
+ "ros2-interfaces-jazzy",
  "shell-words",
  "tokio",
 ]
