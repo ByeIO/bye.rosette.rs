@@ -1,0 +1,54 @@
+0.1.0 - Initial release
+0.1.1 - Update docs
+0.1.2 - Sync README and code documentation
+0.1.3 - Fix of inconsistancy of types of packet fields on different platforms
+0.1.4 - Add new platform support for Linux
+0.1.5 - README update, hint how to shrink binary size for Arduino's
+0.1.6 - Fix bug of non working ignore duplication flag feature
+0.1.7 - Fix bug of non working transactions with ignore duplication flag set
+0.1.8 - Clean out arduino deps into separate repo.
+0.1.9 - Add packet state enum into exported types.
+
+1.0.0 - Change API, limit ability to jam network by sending special packets to anyone, code refactor
+1.0.1 - Forgotten doc on new type - added.
+1.0.2 - Update the documentation
+1.0.3 - Update README documentation - add work principle explanation
+1.0.4 - PacketMetaData - is added to exported types.
+1.0.5 - Update README documentation,
+        add developer contacts information.
+
+1.1.0 - * Update README.
+        * Fix bug with receiving FinishTransaction packet from other transaction session,
+          which led to mess-up. The previous transaction packet could break current transaction process.
+          Now - the protocol distunguishes one transaction from another by expected packet_id in response.
+        * The same bug for ping-pong was fixed too.
+        * API simplified: No longer need of instantiating of complex enums to provide during sending.
+        * 1.0.5 Fully Compatible.
+
+1.1.1 - * README fix.
+1.1.2 - * README fix, Renamings of other repositories included.
+1.1.3 - * README adjust.
+1.1.4 - * README fix.
+1.2.0 - * Readme adjust
+        * Significally reduce code duplication and amount of unnecessary types conversion.
+        * Example of arduino receive binary shrank for about 1kb.
+        * Example of arduino send binary shrank for about 300 bytes.
+
+2.0.0 - * Update README with diagrams
+        * Major version change due to the API change.
+        * Adjust work principle of transactions, it broke backward compatibility on transactions only.
+        * No more dependency PlatformSerial trait in order to provide
+          ability to use more interfaces than just USART, Library now just depends on
+          embedded_serial trait.
+        * No more dependency on PlatformMillis trait. Now for time calculation
+          library uses Fn() -> ms (ms is u32 alias) closure that just returns ms since program start.
+        * Restored feature of transaction to itself.
+          For use of transactions - all nodes shall support version 2.0.0.
+
+2.1.0 - * Change API in order to use more popular embedded-io traits for communicating with radio modules.
+2.1.1 - * Broke backward compatibility of ping-pong in order to allow doing ping-pong to same address.
+          So to use ping-pong - all nodes shall support version 2.1.1.
+2.1.2 - * Usage tests were integrated.
+2.1.3 - * Fix of actual data length being sent.
+2.1.4 - * Google form for protocol improvement.
+        * Add notification about "Pure" version.

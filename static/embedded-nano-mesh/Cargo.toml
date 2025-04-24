@@ -1,0 +1,25 @@
+[package]
+name = "embedded-nano-mesh"
+version = "2.1.4"
+authors = ["Yevhen Shevchenko (boshtannik) <boshtannik@gmail.com>"]
+edition = "2021"
+license = "GPL-3.0-or-later"
+description = "Lightweight mesh communication protocol for embedded devices"
+readme = "README.md"
+repository = "https://github.com/boshtannik/embedded-nano-mesh/"
+keywords = ["serial", "mesh", "protocol", "network", "embedded"]
+categories = ["embedded", "no-std", "network-programming"]
+
+# as a library
+[lib]
+name = "embedded_nano_mesh"
+path = "src/lib.rs"
+test = true
+doctest = false
+
+[dependencies]
+heapless = { version = "0.8", features = ["serde"] }
+embedded-io = "0.6.1"
+
+[dev-dependencies]
+proto-lab = "0.1.3"
